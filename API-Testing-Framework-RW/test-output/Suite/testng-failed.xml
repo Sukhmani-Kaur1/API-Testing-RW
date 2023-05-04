@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="jdtest1ng.createorupdatefilecontent">
+        <methods>
+          <include name="createorupdatefile"/>
+        </methods>
+      </class> <!-- jdtest1ng.createorupdatefilecontent -->
+      <class name="jdtest1ng.jdauthenticategithub">
+        <methods>
+          <include name="createRepository"/>
+        </methods>
+      </class> <!-- jdtest1ng.jdauthenticategithub -->
+      <class name="jdtest1ng.listrepotags">
+        <methods>
+          <include name="listrepotag"/>
+        </methods>
+      </class> <!-- jdtest1ng.listrepotags -->
+      <class name="jdtest1ng.listpublicrepositories">
+        <methods>
+          <include name="listrepouser"/>
+        </methods>
+      </class> <!-- jdtest1ng.listpublicrepositories -->
+      <class name="jdtest1ng.listrepositoriesuser">
+        <methods>
+          <include name="listrepouser"/>
+        </methods>
+      </class> <!-- jdtest1ng.listrepositoriesuser -->
+      <class name="jdtest1ng.listrepositorieslanguage">
+        <methods>
+          <include name="listrepouser"/>
+        </methods>
+      </class> <!-- jdtest1ng.listrepositorieslanguage -->
+      <class name="jdtest1ng.deleterepo">
+        <methods>
+          <include name="deleterepository"/>
+        </methods>
+      </class> <!-- jdtest1ng.deleterepo -->
+      <class name="jdtest1ng.deletefile">
+        <methods>
+          <include name="deletfile"/>
+        </methods>
+      </class> <!-- jdtest1ng.deletefile -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
