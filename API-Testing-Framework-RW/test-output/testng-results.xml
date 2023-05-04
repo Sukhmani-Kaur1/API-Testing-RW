@@ -1,21 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-05-02T17:30:45 IST" name="Default suite" finished-at="2023-05-02T17:30:51 IST" duration-ms="6117">
+  <suite started-at="2023-05-04T11:14:49 IST" name="Suite" finished-at="2023-05-04T11:14:56 IST" duration-ms="6116">
     <groups>
     </groups>
-    <test started-at="2023-05-02T17:30:45 IST" name="Default test" finished-at="2023-05-02T17:30:51 IST" duration-ms="6117">
-      <class name="TestCases.GithubRepo">
-        <test-method signature="creatingRepo()[pri:0, instance:TestCases.GithubRepo@71238fc2]" started-at="2023-05-02T17:30:45 IST" name="creatingRepo" finished-at="2023-05-02T17:30:50 IST" duration-ms="5157" status="PASS">
+    <test started-at="2023-05-04T11:14:49 IST" name="Test" finished-at="2023-05-04T11:14:56 IST" duration-ms="6116">
+      <class name="jdtest1ng.jdauthenticategithub">
+        <test-method signature="createRepository()[pri:0, instance:jdtest1ng.jdauthenticategithub@7714e963]" started-at="2023-05-04T11:14:49 IST" name="createRepository" finished-at="2023-05-04T11:14:52 IST" duration-ms="2740" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- creatingRepo -->
-        <test-method signature="deleteRepo()[pri:1, instance:TestCases.GithubRepo@71238fc2]" started-at="2023-05-02T17:30:50 IST" name="deleteRepo" finished-at="2023-05-02T17:30:51 IST" duration-ms="884" status="PASS">
+        </test-method> <!-- createRepository -->
+      </class> <!-- jdtest1ng.jdauthenticategithub -->
+      <class name="jdtest1ng.deleterepo">
+        <test-method signature="deleterepository()[pri:0, instance:jdtest1ng.deleterepo@6e171cd7]" started-at="2023-05-04T11:14:55 IST" name="deleterepository" finished-at="2023-05-04T11:14:56 IST" duration-ms="562" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- deleteRepo -->
-      </class> <!-- TestCases.GithubRepo -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- deleterepository -->
+      </class> <!-- jdtest1ng.deleterepo -->
+      <class name="jdtest1ng.listpublicrepositories">
+        <test-method signature="listrepouser()[pri:0, instance:jdtest1ng.listpublicrepositories@479d31f3]" started-at="2023-05-04T11:14:53 IST" name="listrepouser" finished-at="2023-05-04T11:14:54 IST" duration-ms="550" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- listrepouser -->
+      </class> <!-- jdtest1ng.listpublicrepositories -->
+      <class name="jdtest1ng.listrepositorieslanguage">
+        <test-method signature="listrepouser()[pri:0, instance:jdtest1ng.listrepositorieslanguage@1ab3a8c8]" started-at="2023-05-04T11:14:52 IST" name="listrepouser" finished-at="2023-05-04T11:14:53 IST" duration-ms="358" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- listrepouser -->
+      </class> <!-- jdtest1ng.listrepositorieslanguage -->
+      <class name="jdtest1ng.deletefile">
+        <test-method signature="deletfile()[pri:0, instance:jdtest1ng.deletefile@498d318c]" started-at="2023-05-04T11:14:54 IST" name="deletfile" finished-at="2023-05-04T11:14:55 IST" duration-ms="539" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deletfile -->
+      </class> <!-- jdtest1ng.deletefile -->
+      <class name="jdtest1ng.createorupdatefilecontent">
+        <test-method signature="createorupdatefile()[pri:0, instance:jdtest1ng.createorupdatefilecontent@40ef3420]" started-at="2023-05-04T11:14:54 IST" name="createorupdatefile" finished-at="2023-05-04T11:14:54 IST" duration-ms="532" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createorupdatefile -->
+      </class> <!-- jdtest1ng.createorupdatefilecontent -->
+      <class name="jdtest1ng.listrepotags">
+        <test-method signature="listrepotag()[pri:0, instance:jdtest1ng.listrepotags@43195e57]" started-at="2023-05-04T11:14:53 IST" name="listrepotag" finished-at="2023-05-04T11:14:53 IST" duration-ms="354" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- listrepotag -->
+      </class> <!-- jdtest1ng.listrepotags -->
+      <class name="jdtest1ng.listrepositoriesuser">
+        <test-method signature="listrepouser()[pri:0, instance:jdtest1ng.listrepositoriesuser@333291e3]" started-at="2023-05-04T11:14:53 IST" name="listrepouser" finished-at="2023-05-04T11:14:53 IST" duration-ms="429" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- listrepouser -->
+      </class> <!-- jdtest1ng.listrepositoriesuser -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

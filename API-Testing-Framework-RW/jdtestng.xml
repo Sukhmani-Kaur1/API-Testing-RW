@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+        <class name="jdtest1ng.jdauthenticategithub"/>
+        <class name="jdtest1ng.listrepositorieslanguage"/>
+        <class name="jdtest1ng.listrepotags"/>
+        <class name="jdtest1ng.listrepositoriesuser"/>
+         <class name="jdtest1ng.listpublicrepositories"/>
+         <class name="jdtest1ng.createorupdatefilecontent"/>
+      <class name="jdtest1ng.deletefile"/>
+      <class name="jdtest1ng.deleterepo"/>
+      
+     
+      
+      
+     
+      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
