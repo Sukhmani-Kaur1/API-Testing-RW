@@ -70,6 +70,12 @@ public class RequestClass {
 		return response;
 	}
 
+	public static Response PatchRequest(String uri, String payLoad, String bearer_token) {
+		RequestSpecification requestSpecification = RestAssured.given().body(payLoad);
+		requestSpecification.header("Authorization", "Bearer " + bearer_token);
+		Response response = requestSpecification.contentType(ContentType.JSON).when().patch(uri);
+		return response;
+	}
 	public static Response PutRequest(String uri, String payLoad, String bearer_token) {
 		RequestSpecification requestSpecification = RestAssured.given().body(payLoad);
 		requestSpecification.header("Authorization", "Bearer " + bearer_token);

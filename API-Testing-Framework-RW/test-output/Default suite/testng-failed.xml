@@ -3,11 +3,16 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="TestCases.GithubRepo">
+      <class name="TestGithub.GithubRepo">
         <methods>
+          <include name="GetTheRepo"/>
+          <include name="CreateRepoFork"/>
+          <include name="UpdateTheRepo"/>
+          <include name="ListFork"/>
           <include name="creatingRepo"/>
+          <include name="CreateFile"/>
         </methods>
-      </class> <!-- TestCases.GithubRepo -->
+      </class> <!-- TestGithub.GithubRepo -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

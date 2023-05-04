@@ -1,21 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="11" passed="11" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-05-02T17:30:45 IST" name="Default suite" finished-at="2023-05-02T17:30:51 IST" duration-ms="6117">
+  <suite started-at="2023-05-04T00:39:35 IST" name="Suite" finished-at="2023-05-04T00:39:48 IST" duration-ms="13480">
     <groups>
     </groups>
-    <test started-at="2023-05-02T17:30:45 IST" name="Default test" finished-at="2023-05-02T17:30:51 IST" duration-ms="6117">
-      <class name="TestCases.GithubRepo">
-        <test-method signature="creatingRepo()[pri:0, instance:TestCases.GithubRepo@71238fc2]" started-at="2023-05-02T17:30:45 IST" name="creatingRepo" finished-at="2023-05-02T17:30:50 IST" duration-ms="5157" status="PASS">
+    <test started-at="2023-05-04T00:39:35 IST" name="Test" finished-at="2023-05-04T00:39:48 IST" duration-ms="13480">
+      <class name="TestGithub.CreateDeleteFile">
+        <test-method signature="creatingRepo()[pri:0, instance:TestGithub.CreateDeleteFile@7205765b]" started-at="2023-05-04T00:39:44 IST" name="creatingRepo" finished-at="2023-05-04T00:39:46 IST" duration-ms="1829" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- creatingRepo -->
-        <test-method signature="deleteRepo()[pri:1, instance:TestCases.GithubRepo@71238fc2]" started-at="2023-05-02T17:30:50 IST" name="deleteRepo" finished-at="2023-05-02T17:30:51 IST" duration-ms="884" status="PASS">
+        <test-method signature="CreateFile()[pri:1, instance:TestGithub.CreateDeleteFile@7205765b]" started-at="2023-05-04T00:39:46 IST" name="CreateFile" finished-at="2023-05-04T00:39:47 IST" duration-ms="949" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateFile -->
+        <test-method signature="DeleteFile()[pri:2, instance:TestGithub.CreateDeleteFile@7205765b]" started-at="2023-05-04T00:39:47 IST" name="DeleteFile" finished-at="2023-05-04T00:39:47 IST" duration-ms="696" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteFile -->
+        <test-method signature="deleteRepo()[pri:3, instance:TestGithub.CreateDeleteFile@7205765b]" started-at="2023-05-04T00:39:47 IST" name="deleteRepo" finished-at="2023-05-04T00:39:48 IST" duration-ms="771" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deleteRepo -->
-      </class> <!-- TestCases.GithubRepo -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      </class> <!-- TestGithub.CreateDeleteFile -->
+      <class name="TestGithub.GithubRepo">
+        <test-method signature="creatingRepo()[pri:0, instance:TestGithub.GithubRepo@156b88f5]" started-at="2023-05-04T00:39:35 IST" name="creatingRepo" finished-at="2023-05-04T00:39:39 IST" duration-ms="4766" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- creatingRepo -->
+        <test-method signature="GetTheRepo()[pri:1, instance:TestGithub.GithubRepo@156b88f5]" started-at="2023-05-04T00:39:39 IST" name="GetTheRepo" finished-at="2023-05-04T00:39:40 IST" duration-ms="619" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetTheRepo -->
+        <test-method signature="UpdateTheRepo()[pri:2, instance:TestGithub.GithubRepo@156b88f5]" started-at="2023-05-04T00:39:40 IST" name="UpdateTheRepo" finished-at="2023-05-04T00:39:41 IST" duration-ms="1126" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UpdateTheRepo -->
+        <test-method signature="CreateFile()[pri:3, instance:TestGithub.GithubRepo@156b88f5]" started-at="2023-05-04T00:39:41 IST" name="CreateFile" finished-at="2023-05-04T00:39:42 IST" duration-ms="812" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateFile -->
+        <test-method signature="CreateRepoFork()[pri:4, instance:TestGithub.GithubRepo@156b88f5]" started-at="2023-05-04T00:39:42 IST" name="CreateRepoFork" finished-at="2023-05-04T00:39:43 IST" duration-ms="598" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateRepoFork -->
+        <test-method signature="ListFork()[pri:5, instance:TestGithub.GithubRepo@156b88f5]" started-at="2023-05-04T00:39:43 IST" name="ListFork" finished-at="2023-05-04T00:39:43 IST" duration-ms="522" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ListFork -->
+        <test-method signature="deleteRepo()[pri:6, instance:TestGithub.GithubRepo@156b88f5]" started-at="2023-05-04T00:39:43 IST" name="deleteRepo" finished-at="2023-05-04T00:39:44 IST" duration-ms="696" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteRepo -->
+      </class> <!-- TestGithub.GithubRepo -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
