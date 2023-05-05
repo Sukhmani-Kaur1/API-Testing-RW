@@ -1,5 +1,6 @@
 package com.utility;
 
+
 public class CreateURL {
 	public final static String baseURL = "https://api.github.com";
 	public static String getBaseUri() {

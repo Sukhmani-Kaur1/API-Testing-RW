@@ -1,0 +1,5 @@
+{
+  "key_prefix": "MASAI-",
+  "url_template": "https://example.com/MASAI?query=<num>",
+  "is_alphanumeric": true
+}

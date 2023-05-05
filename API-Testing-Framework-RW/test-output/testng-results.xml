@@ -1,21 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-05-02T17:30:45 IST" name="Default suite" finished-at="2023-05-02T17:30:51 IST" duration-ms="6117">
+  <suite started-at="2023-05-04T22:23:20 IST" name="Default suite" finished-at="2023-05-04T22:23:28 IST" duration-ms="7539">
     <groups>
     </groups>
-    <test started-at="2023-05-02T17:30:45 IST" name="Default test" finished-at="2023-05-02T17:30:51 IST" duration-ms="6117">
-      <class name="TestCases.GithubRepo">
-        <test-method signature="creatingRepo()[pri:0, instance:TestCases.GithubRepo@71238fc2]" started-at="2023-05-02T17:30:45 IST" name="creatingRepo" finished-at="2023-05-02T17:30:50 IST" duration-ms="5157" status="PASS">
+    <test started-at="2023-05-04T22:23:20 IST" name="Default test" finished-at="2023-05-04T22:23:28 IST" duration-ms="7539">
+      <class name="GitRepoTestNew.GitRepoTestNew">
+        <test-method signature="createRepository()[pri:0, instance:GitRepoTestNew.GitRepoTestNew@5fdcaa40]" started-at="2023-05-04T22:23:20 IST" name="createRepository" finished-at="2023-05-04T22:23:24 IST" duration-ms="3775" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- creatingRepo -->
-        <test-method signature="deleteRepo()[pri:1, instance:TestCases.GithubRepo@71238fc2]" started-at="2023-05-02T17:30:50 IST" name="deleteRepo" finished-at="2023-05-02T17:30:51 IST" duration-ms="884" status="PASS">
+        </test-method> <!-- createRepository -->
+        <test-method signature="createAutolinkReference()[pri:1, instance:GitRepoTestNew.GitRepoTestNew@5fdcaa40]" started-at="2023-05-04T22:23:24 IST" name="createAutolinkReference" finished-at="2023-05-04T22:23:24 IST" duration-ms="451" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- deleteRepo -->
-      </class> <!-- TestCases.GithubRepo -->
+        </test-method> <!-- createAutolinkReference -->
+        <test-method signature="getAllRepoTopics()[pri:2, instance:GitRepoTestNew.GitRepoTestNew@5fdcaa40]" started-at="2023-05-04T22:23:24 IST" name="getAllRepoTopics" finished-at="2023-05-04T22:23:25 IST" duration-ms="476" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllRepoTopics -->
+        <test-method signature="getAutolinkReference()[pri:3, instance:GitRepoTestNew.GitRepoTestNew@5fdcaa40]" started-at="2023-05-04T22:23:25 IST" name="getAutolinkReference" finished-at="2023-05-04T22:23:25 IST" duration-ms="416" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAutolinkReference -->
+        <test-method signature="deleteFromAutolinkReference()[pri:4, instance:GitRepoTestNew.GitRepoTestNew@5fdcaa40]" started-at="2023-05-04T22:23:25 IST" name="deleteFromAutolinkReference" finished-at="2023-05-04T22:23:26 IST" duration-ms="418" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteFromAutolinkReference -->
+        <test-method signature="getaRepository()[pri:5, instance:GitRepoTestNew.GitRepoTestNew@5fdcaa40]" started-at="2023-05-04T22:23:26 IST" name="getaRepository" finished-at="2023-05-04T22:23:26 IST" duration-ms="424" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getaRepository -->
+        <test-method signature="replaceallRepoTopics()[pri:6, instance:GitRepoTestNew.GitRepoTestNew@5fdcaa40]" started-at="2023-05-04T22:23:26 IST" name="replaceallRepoTopics" finished-at="2023-05-04T22:23:27 IST" duration-ms="946" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- replaceallRepoTopics -->
+        <test-method signature="deleteRepos()[pri:7, instance:GitRepoTestNew.GitRepoTestNew@5fdcaa40]" started-at="2023-05-04T22:23:27 IST" name="deleteRepos" finished-at="2023-05-04T22:23:28 IST" duration-ms="579" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteRepos -->
+      </class> <!-- GitRepoTestNew.GitRepoTestNew -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
