@@ -56,7 +56,7 @@ public class CreateDeleteFile {
 		baseUri = CreateURL.getBaseUri("/repos/"+res+"/contents/SomeFile");
 		String body =  playloadCoverting.generatingLoadString("CreateFile.json");
 		Response response = RequestClass.PutRequest(baseUri,body, token);
-//		System.out.println(response.asString());
+		System.out.println(response.asString());
 		sha = commonFunction.getResponseValue(response.asString(), "content.sha");
 		AssertJUnit.assertEquals(commonFunction.getResponseStatus(response), 201);
 	}
