@@ -94,7 +94,7 @@ public class jdauthenticategithub {
 			 String bearer_token= Auth.getToken();
 		 Response response;
 
-			endpoint=CreateURL.getBaseUri("/repos/Jaydip97/jaydip111/contents/jaydip1");
+			
 			String request_paLoad=playloadCoverting.generatingLoadString("createorupdatefile.json");
 			 response= RequestClass.PutRequest(endpoint, request_paLoad, bearer_token);
 			 String responsebody=response.getBody().asString();
@@ -104,17 +104,7 @@ public class jdauthenticategithub {
 	      int x=commonFunction.getResponseStatus(response);
 	         System.out.println(x);
 		}
-//	  @Test(priority=7)
-//		public  static void deletfile() throws IOException {
-//		       String endpoint = CreateURL.getBaseUri("/repos/Jaydip97/jaydip111/contents/jaydip1");
-//			  String bearer_token= Auth.getToken();
-//			 Response response;
-//			String request_paLoad=playloadCoverting.generatingLoadString("delete.json");
-//			 response= RequestClass.DeleteRequest(endpoint, request_paLoad, bearer_token);
-//			 String responsebody=response.getBody().asString();
-//				System.out.println(responsebody);
-//	      Assert.assertEquals(commonFunction.getResponseStatus(response), 200);
-//		}
+
 	  
 	  @Test(priority=7)
 	  
