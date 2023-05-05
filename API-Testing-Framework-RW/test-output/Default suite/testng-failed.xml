@@ -10,6 +10,7 @@
           <include name="UpdateTheRepo"/>
           <include name="ListFork"/>
           <include name="creatingRepo"/>
+          <include name="deleteRepo"/>
           <include name="CreateFile"/>
         </methods>
       </class> <!-- TestGithub.GithubRepo -->
