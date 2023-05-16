@@ -5,7 +5,7 @@
     <classes>
       <class name="jdtest1ng.jdauthenticategithub">
         <methods>
-          <include name="createRepository"/>
+          <include name="DeleteFile"/>
         </methods>
       </class> <!-- jdtest1ng.jdauthenticategithub -->
     </classes>

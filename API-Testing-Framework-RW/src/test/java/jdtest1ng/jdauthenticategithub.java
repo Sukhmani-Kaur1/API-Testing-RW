@@ -104,8 +104,8 @@ public class jdauthenticategithub {
 	      int x=commonFunction.getResponseStatus(response);
 	         System.out.println(x);
 		}
-
-	  
+//
+//	  
 	  @Test(priority=7)
 	  
 	  public  void DeleteFile() throws JsonProcessingException  {
@@ -126,7 +126,7 @@ public class jdauthenticategithub {
 		 int x=commonFunction.getResponseStatus(response);
          System.out.println(x);
 			}
-	  
+//	  
 	  @Test(priority=8)
 		public  static void deleterepository() {
 		   String endpoint = CreateURL.getBaseUri("/repos/Jaydip97/jaydip111");
